@@ -45,7 +45,7 @@ export default function Sidebar({ onClose }) {
                 Jugadores
             </NavLink>
         </ListItem>
-        <ListItem  display='flex' mx={{base:'auto', lg:'0'}} my={{base:'10px', lg:'10px'}}  _hover={{color: 'black'}}onClick={() => {
+        <ListItem  display='flex' mx={{base:'auto', lg:'0px'}} my={{base:'10px', lg:'10px'}}  _hover={{color: 'black'}}onClick={() => {
     onClose(); // Cierra el drawer
     navigate('/horario'); // Navega a la ruta correspondiente
   }} >
