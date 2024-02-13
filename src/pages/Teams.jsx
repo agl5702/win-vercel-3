@@ -1,5 +1,5 @@
 import React from 'react'
-import { Equiposlist } from "../components/equipos/Equiposlist";
+import { EquiposList } from "../components/equipos/EquiposList";
 import { SimpleGrid, Box,Text } from "@chakra-ui/react";
 import EquiposForm from './equipos/EquiposForm'
 import Equipo from '../components/equipos/Equipos';
@@ -16,7 +16,7 @@ export default function Teams() {
         </Box>
           <EquiposForm />
           <Text textAlign='center' fontFamily='DM Serif Display' fontSize='50px'>Equipos</Text>
-          <Equiposlist/>
+          <EquiposList/>
         </Box>
       </SimpleGrid>
   )

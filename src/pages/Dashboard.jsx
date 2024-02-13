@@ -1,6 +1,6 @@
 import {Box, Button, SimpleGrid, Text} from '@chakra-ui/react'
 import { NavLink } from 'react-router-dom'
-import { TorneoList } from '../components/Torneos/Torneolist'
+import { TorneoList } from '../components/torneos/TorneoList'
 import { TorneoFormPages } from './torneos/TorneoFormPage'
 import Torneo from '../components/torneos/Torneo'
 import React from 'react'

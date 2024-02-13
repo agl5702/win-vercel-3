@@ -4,7 +4,7 @@ import { getallEquipos } from "../../api/torneos.api";
 import { Box } from "@chakra-ui/react";
 
 
-export function Equiposlist(){
+export function EquiposList(){
     const [equipos,setEquipos]= useState([]);
 
 useEffect(()=> {

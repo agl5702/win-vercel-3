@@ -4,7 +4,7 @@ import { getallPartidos } from "../../api/torneos.api";
 import { Box } from "@chakra-ui/react";
 
 
-export function Partidoslist(){
+export function PartidosList(){
     const [partidos,setPartidos]= useState([]);
 
 useEffect(()=> {

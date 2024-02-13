@@ -1,6 +1,6 @@
 import React from 'react'
 import { SimpleGrid, Box } from "@chakra-ui/react";
-import { Partidoslist } from '../components/partidos/Partidoslist';
+import { PartidosList } from '../components/partidos/PartidosList';
 import {PartidosForm} from "./partidos/PartidosForm";
 
 export default function Partidos() {
@@ -8,7 +8,7 @@ export default function Partidos() {
     <SimpleGrid columns={2} spacing={10} minChildWidth='250px'>      
     <Box>
         <PartidosForm/>
-        <Partidoslist/>
+        <PartidosList/>
     </Box>
 
   </SimpleGrid>
