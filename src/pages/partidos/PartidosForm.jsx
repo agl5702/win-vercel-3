@@ -1,11 +1,9 @@
-import React from 'react'
 import { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { AddIcon } from '@chakra-ui/icons';
 import { useNavigate } from 'react-router-dom';
 import {
   Button,
-  Box,
   Drawer,
   DrawerOverlay,
   DrawerContent,
@@ -20,7 +18,7 @@ import {
   Select,
   Textarea
 } from '@chakra-ui/react';
-import { crearPartido, getallPartidos, getallHorarios,getallEquipos } from '../../api/torneos.api';
+import { crearPartido, getallHorarios,getallEquipos } from '../../api/torneos.api';
 
 export function PartidosForm() {
   const { register, handleSubmit, formState: { errors }, reset } = useForm();

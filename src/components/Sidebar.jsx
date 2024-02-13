@@ -1,14 +1,13 @@
-import {EditIcon,ViewIcon} from '@chakra-ui/icons'
-import { FaTrophy,FaUser, FaPeopleArrows, FaTable, FaGamepad} from 'react-icons/fa';
-import { List, ListIcon, ListItem,useDisclosure} from '@chakra-ui/react'
+import { FaTrophy,FaTable, FaGamepad} from 'react-icons/fa';
+import { List, ListIcon, ListItem,} from '@chakra-ui/react'
 import { FaPersonRunning } from "react-icons/fa6";
 import { GiPerspectiveDiceSixFacesTwo } from "react-icons/gi";
-import { FaBars } from "react-icons/fa";
 import { RiTeamFill } from "react-icons/ri";
-import { NavLink,useNavigate } from 'react-router-dom'
+import { NavLink,useNavigate} from 'react-router-dom'
 
 
-export default function Sidebar({ onClose }) {
+export default function Sidebar({onClose}) {
+    const navigate = useNavigate();
     return (
     <List color='white' fontSize='1.2em' spacing={0} p={{lg:'10', base:'5'}} 
     flexWrap='wrap' flexDirection='column'

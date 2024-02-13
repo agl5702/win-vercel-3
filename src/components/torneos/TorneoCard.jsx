@@ -1,5 +1,5 @@
-import { Card, CardHeader, CardBody, CardFooter, Text, Flex, Avatar, Box, Heading,Button, IconButton} from '@chakra-ui/react'
-import { useNavigate,useParams} from 'react-router-dom'
+import { Card, CardHeader, CardBody, CardFooter, Text, Flex, Box, Heading,Button} from '@chakra-ui/react'
+import { useNavigate} from 'react-router-dom'
 import { eliminarTorneo } from '../../api/torneos.api'
 import {
   AlertDialog,
@@ -8,11 +8,10 @@ import {
   AlertDialogHeader,
   AlertDialogContent,
   AlertDialogOverlay,
-  AlertDialogCloseButton, 
   useDisclosure,
 } from '@chakra-ui/react'
 import {toast} from 'react-hot-toast'
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 
 
 

@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import {
   Button,
-  Box,
   Drawer,
   DrawerOverlay,
   DrawerContent,
@@ -14,7 +13,6 @@ import {
   FormLabel,
   Input,
   useDisclosure,
-  Select,
   Textarea
 } from '@chakra-ui/react';
 import { AddIcon } from '@chakra-ui/icons';

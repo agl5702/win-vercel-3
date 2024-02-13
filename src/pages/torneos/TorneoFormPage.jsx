@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import {
   Button,
-  Box,
   Drawer,
   DrawerOverlay,
   DrawerContent,

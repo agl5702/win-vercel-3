@@ -1,4 +1,3 @@
-import React from 'react'
 import { SimpleGrid, Box } from "@chakra-ui/react";
 import { PartidosList } from '../components/partidos/PartidosList.jsx';
 import {PartidosForm} from "./partidos/PartidosForm.jsx";

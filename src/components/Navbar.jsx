@@ -2,15 +2,10 @@ import LoginButton from './LoginButton'
 import LogoutButton from './LogoutButton'
 import { useAuth0 } from '@auth0/auth0-react'
 import { FaBars } from "react-icons/fa";
-import { NavLink } from 'react-router-dom'
-import { FaTrophy,FaUser, FaPeopleArrows, FaTable, FaGamepad} from 'react-icons/fa';
-import { RiTeamFill } from "react-icons/ri";
-import { FaPersonRunning } from "react-icons/fa6";
-import { GiPerspectiveDiceSixFacesTwo } from "react-icons/gi";
+import { useNavigate } from 'react-router-dom'
+
 import {
-  List,
-  ListItem,
-  ListIcon,
+
   Button,
   Box,
   Drawer,
@@ -20,20 +15,15 @@ import {
   DrawerHeader,
   DrawerBody,
   DrawerFooter,
-  FormControl,
-  FormLabel,
-  Input,
-  Textarea,
   useDisclosure,
-  Spacer,
   Heading, 
-  Flex, HStack,
+  Flex,
 } from '@chakra-ui/react';
 import Sidebar from './Sidebar';
 export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const {isAuthenticated}=useAuth0();
-
+  const navigate= useNavigate();
 
   return (
     <Flex as='nav' p='10px' justify='space-between' wrap='wrap' gap='2' margin='auto' alignItems='center' boxShadow='2xl' border='none'> 
