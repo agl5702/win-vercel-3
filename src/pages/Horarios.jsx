@@ -1,7 +1,7 @@
 import React from 'react'
-import { HorariosList  } from "../components/horarios/HorariosList.jsx";
+import {HorariosList} from "../components/horarios/HorariosList.jsx";
 import HorariosForm from "./horarios/HorariosForm.jsx";
-import { SimpleGrid, Box } from "@chakra-ui/react";
+import {SimpleGrid, Box} from "@chakra-ui/react";
 import Horario from "../components/horarios/Horario.jsx";
 import img1 from '../assets/horario.png';
 import img2 from '../assets/horario2.png';
