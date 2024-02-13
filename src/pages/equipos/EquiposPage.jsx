@@ -1,4 +1,4 @@
-import { EquiposList } from "../../components/equipos/EquiposList"
+import { EquiposList } from "../../components/equipos/EquiposList.jsx"
 
 export function EquiposPage(){
 

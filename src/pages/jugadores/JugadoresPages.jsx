@@ -1,4 +1,4 @@
-import { JugadoresList } from "../../components/Jugadores/Jugadoreslist"
+import { JugadoresList } from "../../components/Jugadores/JugadoresList.jsx"
 
 export function JugadoresPage(){
 
