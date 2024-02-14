@@ -1,11 +1,11 @@
 import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from 'react-router-dom';
 import RootLayout from './layouts/RootLayout';
-import { TorneoFormPages } from './pages/torneos/TorneoFormPage.jsx';
-import Dashboard from './pages/Dashboard.jsx';
-import Profile from './pages/Profile.jsx';
-import Teams from './pages/Teams.jsx';
-import Horarios from './pages/Horarios.jsx';
-import Partidos from './pages/Partidos.jsx';
+import { TorneoFormPages } from './pages/torneos/TorneoFormPage';
+import Dashboard from './pages/Dashboard';
+import Profile from './pages/Profile';
+import Teams from './pages/Teams';
+import Horarios from './pages/Horarios';
+import Partidos from './pages/Partidos';
 import { Toaster } from 'react-hot-toast';
 
 const router = createBrowserRouter(

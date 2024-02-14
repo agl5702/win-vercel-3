@@ -1,5 +1,5 @@
 import { Box, SimpleGrid } from "@chakra-ui/react"
-import { TorneoList } from "../../components/Torneos/Torneolist.jsx"
+import { TorneoList } from "../../components/Torneos/Torneolist"
 
 export function TorneoPage(){
 

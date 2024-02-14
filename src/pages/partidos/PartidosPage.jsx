@@ -1,4 +1,4 @@
-import { PartidosList } from '../../components/partidos/PartidosList.jsx' 
+import { PartidosList } from '../../components/partidos/PartidosList' 
 
 
 export function PartidosPage() {
