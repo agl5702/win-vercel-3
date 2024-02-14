@@ -1,10 +1,9 @@
-import React from 'react'
-import { Horarioslist } from '../../components/horarios/Horarioslist'
+import { HorariosList } from '../../components/horarios/HorariosList' 
 
 
-export function Horariospage() {
+export function HorariosPage() {
 
   return (
-    <Horarioslist/>
+    <HorariosList/>
   )
 }

@@ -1,10 +1,9 @@
-import React from 'react'
-import {Partidoslist} from '../../components/partidos/Partidoslist'
+import { PartidosList } from '../../components/partidos/PartidosList' 
 
 
 export function PartidosPage() {
 
   return (
-    <Partidoslist/>
+    <PartidosList/>
   )
 }

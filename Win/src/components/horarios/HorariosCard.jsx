@@ -1,4 +1,4 @@
-import {TableContainer, Table,TableCaption, Thead, Tr,Th,Tbody,Td,Tfoot, Button,AlertDialog,AlertDialogOverlay,AlertDialogContent,AlertDialogHeader,AlertDialogBody,AlertDialogFooter ,useDisclosure   } from "@chakra-ui/react";
+import {TableContainer, Table,TableCaption, Thead, Tr,Th,Tbody,Td,Tfoot, Button,useDisclosure   } from "@chakra-ui/react";
 
 export function HorariosCard({horario}){
 

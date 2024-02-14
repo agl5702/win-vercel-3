@@ -4,7 +4,7 @@ import { getallHorarios } from "../../api/torneos.api";
 import { Box } from "@chakra-ui/react";
 
 
-export function Horarioslist(){
+export function HorariosList(){
     const [horarios,setHorarios]= useState([]);
 
 useEffect(()=> {

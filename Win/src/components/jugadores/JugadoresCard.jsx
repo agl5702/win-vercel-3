@@ -1,10 +1,9 @@
-import { Card, CardBody, CardFooter, Heading, Image, Stack, Text, Button,AlertDialog,AlertDialogOverlay,AlertDialogContent,AlertDialogHeader,AlertDialogBody,AlertDialogFooter ,useDisclosure  } from "@chakra-ui/react";
+import { Card, CardBody, CardFooter, Heading, Image, Stack,Button,AlertDialog,AlertDialogOverlay,AlertDialogContent,AlertDialogHeader,AlertDialogBody,AlertDialogFooter ,useDisclosure  } from "@chakra-ui/react";
 import { useState, useEffect } from "react";
-import { getallEquipos,eliminarJugador,getallJugadores } from "../../api/torneos.api";
+import { getallEquipos,eliminarJugador} from "../../api/torneos.api";
 import {toast} from 'react-hot-toast'
-import React, { useRef } from 'react';
+import  { useRef } from 'react';
 import { useNavigate} from 'react-router-dom'
-
 
 export function JugadoresCard({ jugador }) {
   const [equipoNombre, setEquipoNombre] = useState("");

@@ -1,5 +1,5 @@
-import { JugadoresList } from "../components/jugadores/Jugadoreslist";
-import { SimpleGrid, Box } from "@chakra-ui/react";
+import {JugadoresList} from '../components/jugadores/JugadoresList'
+import {SimpleGrid,Box} from "@chakra-ui/react";
 import JugadoresForm from "./jugadores/JugadoresForm";
 import img1 from '../assets/jugador1.png';
 import img2 from '../assets/jugador2.png';
@@ -13,7 +13,7 @@ export default function Profile(){
           <Box boxShadow='2xl' mt='5px'>
           <Jugador images={images}/>
           </Box>
-            <JugadoresForm />
+            <JugadoresForm/>
             <JugadoresList/>
         </Box>
   

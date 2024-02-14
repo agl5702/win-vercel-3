@@ -1,6 +1,6 @@
-import { Equiposlist } from "../../components/equipos/Equiposlist"
+import { EquiposList } from "../../components/equipos/EquiposList.jsx"
 
 export function EquiposPage(){
 
-    return <Equiposlist/>
+    return <EquiposList/>
 }

@@ -1,4 +1,4 @@
-import { BrowserRouter, createBrowserRouter, createRoutesFromElements, Route, RouterProvider, Routes } from 'react-router-dom';
+import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from 'react-router-dom';
 import RootLayout from './layouts/RootLayout';
 import { TorneoFormPages } from './pages/torneos/TorneoFormPage';
 import Dashboard from './pages/Dashboard';

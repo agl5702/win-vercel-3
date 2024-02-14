@@ -1,7 +1,6 @@
-import React from 'react'
-import { Horarioslist } from "../components/horarios/Horarioslist";
+import {HorariosList} from "../components/horarios/HorariosList";
 import HorariosForm from "./horarios/HorariosForm";
-import { SimpleGrid, Box } from "@chakra-ui/react";
+import {SimpleGrid, Box} from "@chakra-ui/react";
 import Horario from "../components/horarios/Horario";
 import img1 from '../assets/horario.png';
 import img2 from '../assets/horario2.png';
@@ -16,7 +15,7 @@ export default function Horarios(){
           <Horario images={images}/>
         </Box>
             <HorariosForm/>
-            <Horarioslist/>
+            <HorariosList/>
         </Box>
       </SimpleGrid>
     )
