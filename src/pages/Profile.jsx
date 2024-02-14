@@ -13,7 +13,7 @@ export default function Profile(){
           <Box boxShadow='2xl' mt='5px'>
           <Jugador images={images}/>
           </Box>
-            <JugadoresForm />
+            <JugadoresForm/>
             <JugadoresList/>
         </Box>
   

@@ -1,4 +1,4 @@
-import {HorariosList} from "../components/horarios/HorariosList";
+import {HorariosList} from "../components/horarios/Horarioslist";
 import HorariosForm from "./horarios/HorariosForm";
 import {SimpleGrid, Box} from "@chakra-ui/react";
 import Horario from "../components/horarios/Horario";
