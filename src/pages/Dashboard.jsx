@@ -1,5 +1,5 @@
 import {Box, SimpleGrid, Text} from '@chakra-ui/react'
-import {TorneoList} from '../components/torneos/TorneoList'
+import TorneoList from '../components/torneos/TorneoList'
 import { TorneoFormPages } from './torneos/TorneoFormPage'
 import Torneo from '../components/torneos/Torneo'
 import img1 from '../assets/1.png';
