@@ -1,4 +1,4 @@
-import {TorneoList} from '../components/torneos/TorneoList'
+import { TorneoList } from '../components/torneos/Torneolist';
 import {Box, SimpleGrid, Text} from '@chakra-ui/react'
 import { TorneoFormPages } from './torneos/TorneoFormPage'
 import Torneo from '../components/torneos/Torneo'
