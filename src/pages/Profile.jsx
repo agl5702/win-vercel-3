@@ -1,4 +1,4 @@
-import {JugadoresList} from '../components/jugadores/JugadoresList' 
+import {JugadoresList} from '../components/jugadores/Jugadoreslist'
 import {SimpleGrid,Box} from "@chakra-ui/react";
 import JugadoresForm from "./jugadores/JugadoresForm";
 import img1 from '../assets/jugador1.png';

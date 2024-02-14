@@ -1,4 +1,4 @@
-import {EquiposList} from '../components/equipos/EquiposList'
+import {EquiposList} from '../components/equipos/Equiposlist'
 import { SimpleGrid, Box,Text } from "@chakra-ui/react";
 import EquiposForm from './equipos/EquiposForm'
 import Equipo from '../components/equipos/Equipos';
