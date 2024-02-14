@@ -1,5 +1,5 @@
 import { SimpleGrid, Box } from "@chakra-ui/react";
-import { PartidosList } from '../components/partidos/PartidosList';
+import { PartidosList } from '../components/partidos/PartidosList'
 import {PartidosForm} from "./partidos/PartidosForm";
 
 export default function Partidos() {
