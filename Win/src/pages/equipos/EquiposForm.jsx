@@ -98,7 +98,7 @@ export default function EquiposForm() {
   
   return (
     <>
-      <Button m='15px' leftIcon={<AddIcon />} colorScheme='teal' onClick={onOpen}>
+      <Button m='15px' leftIcon={<AddIcon />}  bgGradient='linear(to-r, white,gray.300,gray.400)' onClick={onOpen}>
         Nuevo Equipo!
       </Button>
       <Drawer isOpen={isOpen} placement='right' onClose={() => { onClose(); navigate('/equipos'); }}>

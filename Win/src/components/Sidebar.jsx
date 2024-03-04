@@ -5,28 +5,26 @@ import { GiPerspectiveDiceSixFacesTwo } from "react-icons/gi";
 import { RiTeamFill } from "react-icons/ri";
 import { NavLink,useNavigate} from 'react-router-dom'
 
-
 export default function Sidebar({onClose}) {
     const navigate = useNavigate();
     return (
-    <List color='white' fontSize='1.2em' spacing={0} p={{lg:'10', base:'5'}} 
+    <List  color='white' fontSize='1.2em' spacing={10} p={{lg:'10', base:'5'}} 
     flexWrap='wrap' flexDirection='column'
     position={{lg:'fixed'}}
     fontWeight='700'
-    textAlign='center'
     justifyContent={{base:'flex-end',lg:'space-around'}}
     
     >
-        <ListItem display='flex' mx={{base:'auto', lg:'0'}} my={{base:'10px', lg:'10px'}}  _hover={{color:{lg:'black', base:'none'}}} onClick={() => {
+        <ListItem display='flex'  my={{base:'10px', lg:'10px'}}  _hover={{color:{lg:'black', base:'none'}}} onClick={() => {
     onClose(); // Cierra el drawer
     navigate('/'); // Navega a la ruta correspondiente
   }} >
             <NavLink to='/'>
-                <ListIcon as={FaTrophy} color='yellow.300'  my='1px'/>
+                <ListIcon as={FaTrophy} color='yellow.300' my='1px'/>
                 Torneos
             </NavLink>
         </ListItem>
-        <ListItem  display='flex' mx={{base:'auto', lg:'0'}} my={{base:'10px', lg:'10px'}}  _hover={{color: 'black'}} onClick={() => {
+        <ListItem  display='flex'  my={{base:'10px', lg:'10px'}}  _hover={{color: 'black'}} onClick={() => {
     onClose(); // Cierra el drawer
     navigate('/equipos'); // Navega a la ruta correspondiente
   }} >
@@ -35,7 +33,7 @@ export default function Sidebar({onClose}) {
                 Equipos
             </NavLink>
         </ListItem>
-        <ListItem  display='flex' mx={{base:'auto', lg:'0'}} my={{base:'10px', lg:'10px'}}  _hover={{color: 'black'}}onClick={() => {
+        <ListItem  display='flex' my={{base:'10px', lg:'10px'}}  _hover={{color: 'black'}}onClick={() => {
     onClose(); // Cierra el drawer
     navigate('/profile'); // Navega a la ruta correspondiente
   }} >
@@ -44,7 +42,7 @@ export default function Sidebar({onClose}) {
                 Jugadores
             </NavLink>
         </ListItem>
-        <ListItem  display='flex' mx={{base:'auto', lg:'0px'}} my={{base:'10px', lg:'10px'}}  _hover={{color: 'black'}}onClick={() => {
+        <ListItem  display='flex'  my={{base:'10px', lg:'10px'}}  _hover={{color: 'black'}}onClick={() => {
     onClose(); // Cierra el drawer
     navigate('/horario'); // Navega a la ruta correspondiente
   }} >
@@ -53,7 +51,7 @@ export default function Sidebar({onClose}) {
                 Horarios
             </NavLink>
         </ListItem>
-        <ListItem  display='flex' mx={{base:'auto', lg:'0'}} my={{base:'10px', lg:'10px'}}  _hover={{color: 'black'}}onClick={() => {
+        <ListItem  display='flex'  my={{base:'10px', lg:'10px'}}  _hover={{color: 'black'}}onClick={() => {
     onClose(); // Cierra el drawer
     navigate('/partidos'); // Navega a la ruta correspondiente
   }} >
@@ -62,7 +60,7 @@ export default function Sidebar({onClose}) {
                 Partidos
             </NavLink>
         </ListItem>
-        <ListItem  display='flex' mx={{base:'auto', lg:'0'}} my={{base:'10px', lg:'10px'}}  _hover={{color: 'black'}}onClick={() => {
+        <ListItem  display='flex'  my={{base:'10px', lg:'10px'}}  _hover={{color: 'black'}}onClick={() => {
     onClose(); // Cierra el drawer
     navigate('/sorteos'); // Navega a la ruta correspondiente
   }} >

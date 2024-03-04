@@ -59,7 +59,7 @@ export default function HorariosForm() {
  
   return (
     <>
-      <Button m='15px' leftIcon={<AddIcon />} colorScheme='teal' onClick={onOpen}>
+      <Button m='15px' leftIcon={<AddIcon />} bgGradient='linear(to-r, white,gray.300,gray.400)' onClick={onOpen}>
         Añade un Horario!
       </Button>
       <Drawer isOpen={isOpen} placement='right' onClose={() => { onClose(); navigate('/horario  '); }}>

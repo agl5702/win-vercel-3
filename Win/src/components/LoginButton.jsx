@@ -9,6 +9,6 @@ export default function LoginButton() {
 
 
   return (
-    <Button colorScheme='green' onClick={loginWithRedirect}>Log in</Button>
+    <Button bgGradient='linear(to-r, white,gray.300,gray.400)' color='gray.700' boxShadow='lg' onClick={loginWithRedirect}>Log in</Button>
   )
 }

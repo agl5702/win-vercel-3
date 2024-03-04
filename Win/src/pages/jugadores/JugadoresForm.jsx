@@ -86,7 +86,7 @@ export default function JugadoresForm() {
   
   return (
     <>
-      <Button m='15px' leftIcon={<AddIcon />} colorScheme='teal' onClick={onOpen}>
+      <Button m='15px' leftIcon={<AddIcon />} bgGradient='linear(to-r, white,gray.300,gray.400)' onClick={onOpen}>
         Nuevo Jugador!
       </Button>
       <Drawer isOpen={isOpen} placement='right' onClose={() => { onClose(); navigate('/profile'); }}>
